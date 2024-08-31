@@ -32,6 +32,23 @@ const Main = () => {
               <img src={assets.message_icon} alt="" />
             </div>
         </div>
+        <div className="main-bottom">
+            <div className="search-box">
+                <input type="text" placeholder='Enter a prompt here' />
+                <div>
+                    <img src={assets.gallery_icon} alt="" />
+                    <img src={assets.mic_icon} alt="" />
+                    <img src={assets.send_icon} alt="" />
+                </div>
+            </div>
+            <p className="bottom-info">
+            Gemini Apps Activity is on by default if you are 18 or older. Users under 18 can choose to turn it on.
+
+
+
+ 
+            </p>
+        </div>
       </div>
     </div>
   )
