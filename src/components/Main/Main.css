@@ -5,21 +5,32 @@
     position: relative;
 }
 
-.main .nav{
+
+.main .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 22px;
     padding: 20px;
-    color:blueviolet;
-    
-
+    color: blueviolet; /* Default text color for other elements */
 }
 
-.main .nav img{
-    width: 40px;
-    border-radius: 50%;
+.main .nav p {
+    background: linear-gradient(to right, #f09, #00f); /* Pink to light pink gradient */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make text color transparent to show the gradient */
+    font-family: 'Helvetica Neue', sans-serif; /* Modern and clean font */
+    font-weight: bold; /* Emphasize the text */
+    letter-spacing: 0.5px; /* Slightly increased letter spacing for readability */
 }
+
+
+.main .nav img {
+    height: 40px; /* Adjust height for logo or icon */
+    border-radius: 50%; /* Circular image for a sleek look */
+    object-fit: cover; /* Ensure the image fits well within the circle */
+}
+
 
 .main-container{
     max-width: 900px;
